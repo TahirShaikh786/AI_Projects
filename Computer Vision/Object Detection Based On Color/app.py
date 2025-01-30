@@ -1,8 +1,8 @@
 import imutils # Resize
 import cv2
 
-redLower = (86, ,)
-redUpper = (,,)
+redLower = (86, 53, 64)
+redUpper = (174, 192, 255)
 
 camera = cv2.VideoCapture(0) # Cam Ini
 
